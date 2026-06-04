@@ -20,14 +20,14 @@
 1. 克隆本仓库：
 
    ```bash
-   git clone https://github.com/<your-name>/clarify-skills.git
+   git clone https://github.com/kinsliy/my-skills.git
    ```
 
 2. 把两个 skill 目录复制到你的 skills 目录（不同客户端目录可能不同，常见为 `~/.trae/skills/`、`~/.claude/skills/` 或 `~/.config/<client>/skills/`）：
 
    ```bash
-   cp -r clarify-skills/requirement-clarify-first <你的 skills 目录>/
-   cp -r clarify-skills/clarify-task-executor   <你的 skills 目录>/
+   cp -r my-skills/requirement-clarify-first <你的 skills 目录>/
+   cp -r my-skills/clarify-task-executor   <你的 skills 目录>/
    ```
 
 3. 重启 / 重新加载客户端，即可在 skill 列表看到这两个 skill。
@@ -35,7 +35,7 @@
 ### 方式二：若客户端支持 `skills` CLI
 
 ```bash
-npx skills add <your-name>/clarify-skills
+npx skills add kinsliy/my-skills
 ```
 
 > 具体命令以你所用客户端的 skill 管理工具为准。
